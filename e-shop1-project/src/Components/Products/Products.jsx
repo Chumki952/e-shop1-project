@@ -48,7 +48,7 @@ const Products = () => {
                  ProductData.map((data) =>(
                   <div key={data.id}>
                      <div className='border-2 rounded-md border-gray-200 '>
-                      <img src={data.img} className='h-[180p] w-[260px] object-cover rounded-full' alt="" />
+                      <img src={data.img} className='h-[180p] w-[260px] object-cover bg-red-500' alt="" />
                       
                      </div>
                      <div className='leading-7 right-0'>
